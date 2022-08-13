@@ -1,0 +1,9 @@
+{
+	"name": "DLS-FJAR1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3d7f36e3-1f02-42ab-92c5-4a6b204e2015",
+		"tenantId": "28d55ba3-3cdc-4715-9d71-eade532c906d"
+	}
+}
