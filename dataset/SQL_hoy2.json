@@ -1,0 +1,16 @@
+{
+	"name": "SQL_hoy2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SQL hoy",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "cervezas",
+			"table": ""
+		}
+	}
+}
