@@ -1,0 +1,52 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "netflix1.csv",
+				"container": "newcontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "show_id",
+				"type": "String"
+			},
+			{
+				"name": "tipo",
+				"type": "String"
+			},
+			{
+				"name": "titulo",
+				"type": "String"
+			},
+			{
+				"name": "director",
+				"type": "String"
+			},
+			{
+				"name": "pais_id",
+				"type": "String"
+			},
+			{
+				"name": "fecha_agregada",
+				"type": "String"
+			},
+			{
+				"name": "categoria_id",
+				"type": "String"
+			}
+		]
+	}
+}
